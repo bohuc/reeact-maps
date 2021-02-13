@@ -23,7 +23,7 @@ const Map = ({countriesData, travelData, center, zoom}) => {
     return ( 
         <div className="map">
             <GoogleMapReact  onClick={locationInfo ? closeResults : null}
-                bootstrapURLKeys={{ key: 'AIzaSyCkB9aBXv-lzkqps6VJJu1R5R_Imvq0IDU'}}
+                bootstrapURLKeys={{ key: 'GOOGLE_API_KEY'}}
                 defaultCenter={center}
                 defaultZoom={zoom}
             >
